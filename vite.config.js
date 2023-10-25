@@ -7,7 +7,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '@fortawesome/react-fontawesome': '@fortawesome/react-fontawesome',
-      '@fortawesome/free-solid-svg-icons': '@fortawesome/free-solid-svg-icons', // Adicione esta linha
+      '@fortawesome/free-solid-svg-icons': '@fortawesome/free-solid-svg-icons', 
     },
   },
 });

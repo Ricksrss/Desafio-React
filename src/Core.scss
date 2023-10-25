@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;1,100&display=swap');
+
+  .core-table td {
+    padding: 5px;
+    
+  }
+  
+.divider-row td {
+    border-bottom: 10px solid white; 
+    padding: 10px 0; 
+    
+  }
+  .core-heading{
+    font-size: 30;
+  }
+
+  .core-table {
+    display: inline-table;
+    align-items: center;
+     width: 100%;
+    border-collapse: collapse;
+    
+  
+    .task-column {
+      text-align: left;
+      
+    }
+  
+    .status-column {
+      text-align: center;
+      
+    }
+  
+    .options-column {
+      text-align: right;
+  
+      button {
+        margin-left: 50px; 
+      }
+    }
+  }
+
+  .center-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    
+  }
+  
+  .core-table {
+    width: 70%;
+  }
+  
+  .add-button {
+    font-size: 20px;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    color: white;
+    margin-left: 1250px; 
+    margin-top: 100px; 
+  }
+
+ .new-task-text{
+    margin-right: 1100px;
+    margin-top: -30px;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+   
+ }
+  .core-table {
+    width: 70%;
+    font-size: 30px;
+  }
+  
+.core-table .options-column button,
+.core-table .status-column input[type="checkbox"] {
+  cursor: pointer;
+}
+
+.core-table .options-column button {
+  background: none;
+  border: none;
+  padding: 0;
+  color: white;
+  
+}
+.checkbox {
+  width: 20px;
+  height: 20px;
+}

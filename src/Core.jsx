@@ -1,9 +1,10 @@
 import React, { useState, useRef, useEffect } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPen, faPlus, faTrash } from "@fortawesome/free-solid-svg-icons";
 import "./Core.scss";
 import ConfirmationModal from "./ConfirmationModal";
 import "./ConfirmationModal.scss";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 function Core() {
   const [tasks, setTasks] = useState([
@@ -11,7 +12,6 @@ function Core() {
     { task: "Responder e-mails", completed: false },
   ]);
 
-  const [editingTask, setEditingTask] = useState(null);
   const [showDeleteConfirmation, setShowDeleteConfirmation] = useState(false);
   const [taskToDelete, setTaskToDelete] = useState(null);
   const [taskToDeleteName, setTaskToDeleteName] = useState("");

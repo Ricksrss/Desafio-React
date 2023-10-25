@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Global.scss";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Header = () => {
   const [selectedText, setSelectedText] = useState("Tarefas");

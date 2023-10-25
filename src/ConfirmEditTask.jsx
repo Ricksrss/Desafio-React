@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 function EditTask({ taskName, onConfirm }) {
   const [editedTask, setEditedTask] = useState(taskName);

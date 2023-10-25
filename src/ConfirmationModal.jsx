@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "./ConfirmationModal.scss";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 function ConfirmationModal({
   isOpen,

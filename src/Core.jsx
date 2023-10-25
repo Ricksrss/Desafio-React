@@ -3,8 +3,7 @@ import { faPen, faPlus, faTrash } from "@fortawesome/free-solid-svg-icons";
 import "./Core.scss";
 import ConfirmationModal from "./ConfirmationModal";
 import "./ConfirmationModal.scss";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Core() {
   const [tasks, setTasks] = useState([

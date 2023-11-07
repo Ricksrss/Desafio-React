@@ -7,7 +7,7 @@ import "./ConfirmationModal.scss";
 
 function Core() {
   const [tasks, setTasks] = useState([
-    { task: "Limpar a casa", completed: true },
+    { task: "Limpar a casa", completed: false },
     { task: "Responder e-mails", completed: false },
   ]);
 
@@ -124,7 +124,15 @@ function Core() {
                           }}
                         />
                       ) : (
-                        <span>{task.task}</span>
+                        <span
+                          style={{
+                            textDecoration: task.completed
+                              ? "line-through"
+                              : "none",
+                          }}
+                        >
+                          {task.task}
+                        </span>
                       )}
                     </td>
                     <td className="status-column">

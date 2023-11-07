@@ -1,3 +1,7 @@
 # React + Vite
 
-Entre no Link do Site: https://desafio-reactt.netlify.app/
+Organizador de Tarefas
+
+Clicando no Botão de  + você criará uma nova tarefa que poderá ser editada com a tarefa que deseja.
+Ao completar a tarefa é só clicar no botão de status para que a terefa seja marcada como concluída.
+Caso queira também podera excluir tarefas para assim criar novas.
